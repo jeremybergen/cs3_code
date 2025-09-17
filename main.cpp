@@ -5,7 +5,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
-    Graph g(5);
+    Graph g(6);
 
     g.addEdge(0, 1);
     g.addEdge(0, 2);
@@ -13,5 +13,10 @@ int main(int argc, char* argv[])
     g.addEdge(2, 3);
 
     g.print();
+    cout << endl;
+
+    g.dfs(5);
+    cout << endl;
+    g.printVisited();
     return 0;
 }
