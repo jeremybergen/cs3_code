@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
     g.print();
     cout << endl;
 
-    g.dfs(5);
+    g.dfs(3);
     cout << endl;
     g.printVisited();
     return 0;
